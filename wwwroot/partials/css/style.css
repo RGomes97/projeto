@@ -1,0 +1,22 @@
+.ng-leave-active{
+	-moz-transform: scale(0.1);
+	-webkit-transform: scale(0.1);
+	-ms-transform: scale(0.1);
+	-o-transform: scale(0.1);
+	transform: scale(0.1);
+}
+
+.ng-enter{
+	transition: 1s;
+	opacity: 0;
+}
+
+.ng-enter-active{
+    opacity: 1;
+    transition: 1s;
+}
+
+.ng-leave{
+	transition: 1s;
+	opacity: 1;
+}
