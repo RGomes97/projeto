@@ -23,18 +23,18 @@ app.controller('cadastroUsuariosCtrl', function($scope,$http, $location){
 
     $scope.values = [];
 
-    $http.get('/api/values').then(function(data){
+    $http.get('/api/cliente').then(function(data){
         $scope.values = data.data; 
     })
     
     $scope.enviarDados = function(){    
-        var res = $http.post('/api/values', $scope.form, { header: { 'Content-Type': 'application/json' } });
+        var res = $http.post('/api/cliente', $scope.form, { header: { 'Content-Type': 'application/json' } });
         res.then(function (data, status, headers, config) {
             console.log(data);
 
             $scope.form = {};
 
-            $http.get('/api/values').then(function(data){
+            $http.get('/api/cliente').then(function(data){
                 $scope.values = data.data; 
             })
 

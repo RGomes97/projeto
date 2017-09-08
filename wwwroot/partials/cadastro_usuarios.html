@@ -2,21 +2,29 @@
     <div class="row">
         <form name="form" novalidade>
             <div class="form-group">
-                <label>Nome:</label>
-                <input type="text" ng-model="form.nome" class="form-control" required>
+                <label>Razao Social:</label>
+                <input type="text" ng-model="form.razaoSocial" class="form-control" required>
+            </div>
+        
+            <div class="form-group">
+                <label>CNPJ:</label>
+                <input type="text" ng-model="form.cnpj" class="form-control" required>
             </div>
             <button ng-click="enviarDados()" class="btn btn-primary center-block" type="button">Enviar</button>
         </form>
+        
     </div>
     <table class="table table-striped">
-        <thead>
+        <thead> 
             <tr>
                 <th>Usuarios</th>
+                <th>cnpj</th>
             </tr>
         </thead>
         <tbody>
         <tr ng-repeat="value in values">
-            <td>{{value.nome}}</td>
+            <td>{{value.cnpj}}</td>
+            <td>{{value.razaoSocial}}</td>
         </tr>
     </table>
 </div>
