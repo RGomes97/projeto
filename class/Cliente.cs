@@ -1,12 +1,12 @@
-public class Cliente 
-{
-    public string nome { get; set; }
-    public string cpf { get; set; }
-    public string telefone { get; set; }
 
-    public Cliente(string nome, string cpf, string telefone){
-        this.nome = nome;
-	this.endereco = endereco;
-	this.telefone = telefone;
+    public Cliente(int codigo, string cnpj, string razaoSocial, string endereco, string complemento, string bairro, string estado, string cidade){
+        this.codigo = codigo;
+	    this.razaoSocial = razaoSocial;
+        this.cnpj = cnpj;
+	    this.endereco = endereco;
+        this.complemento = complemento;
+        this.bairro = bairro;
+        this.estado = estado;
+        this.cidade = cidade;
     }
 }
