@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace dotnet_test.Controllers
 {
 
-    [Route("api/produtos")]
+    [Route("api/cliente")]
     public class ClientesController : Controller
     {
         public static List<Cliente> vetor = new List<Cliente>();
