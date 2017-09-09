@@ -35,7 +35,18 @@ namespace dotnet_test.Controllers
         [HttpPost]
         public IEnumerable<Cliente> Post([FromBody]Cliente cliente)
         {
-            vetor.Add(new Cliente(cliente.codigo, cliente.razaoSocial, cliente.cnpj, cliente.endereco, cliente.complemento, cliente.bairro, cliente.estado, cliente.cidade));
+            vetor.Add(new Cliente{
+                codigo = cliente.codigo,
+                razaoSocial = cliente.razaoSocial,
+                cnpj = cliente.cnpj,
+                cep = cliente.cep,
+                endereco = cliente.endereco,
+                complemento = cliente.complemento,
+                bairro = cliente.bairro,
+                estado = cliente.estado,
+                cidade = cliente.cidade
+            }); 
+
             return vetor;
         }
 
