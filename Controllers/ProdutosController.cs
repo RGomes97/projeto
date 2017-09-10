@@ -35,7 +35,12 @@ namespace dotnet_test.Controllers
         [HttpPost]
         public IEnumerable<Produto> Post([FromBody]Produto produto)
         {
-            vetor.Add(new Produto(produto.nome, produto.codigo, produto.quantidade, produto.foto));
+            vetor.Add(new Produto{
+                nome = produto.nome,
+                codigo = produto.codigo,
+                quantidade = produto.quantidade,
+                foto = produto.foto
+            });
             return vetor;
         }
 

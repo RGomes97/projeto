@@ -1,0 +1,89 @@
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Cadastro de clientes</div>
+            <div class="panel-body">
+                <form name="form" novalidade>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Codigo:</label>
+                                    <input type="number" ng-model="form.codigo" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Razao Social:</label>
+                                    <input type="text" ng-model="form.razaoSocial" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>CNPJ:</label>
+                                    <input type="text" ng-model="form.cnpj" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>CEP:</label>
+                                    <input type="text" ng-model="form.cep" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Endereco:</label>
+                                    <input type="text" ng-model="form.endereco" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Complemento:</label>
+                                    <input type="text" ng-model="form.complemento" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label>Bairro:</label>
+                                    <input type="text" ng-model="form.bairro" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label>Cidade:</label>
+                                    <input type="text" ng-model="form.cidade" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label>Estado:</label>
+                                    <input type="text" ng-model="form.estado" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button ng-disabled="form.$invalid" ng-click="enviarDados()" class="btn btn-primary center-block" type="button">Enviar</button>
+                </form>
+            </div>
+        </div>
+    <!-- <table class="table table-striped"> 
+        <thead> 
+            <tr>
+                <th>Usuarios</th>
+                <th>cnpj</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="value in values">
+            <td>{{value.razaoSocial}}</td>
+            <td>{{value.cnpj}}</td>
+        </tr>
+    </table>-->
+</div>

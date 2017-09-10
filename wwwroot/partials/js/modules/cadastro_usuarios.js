@@ -1,12 +1,12 @@
-const app = angular.module('main',['ngRoute', 'ngAnimate']);
+const app = angular.module('main',['ui.bootstrap','ngRoute', 'ngAnimate']);
 app.config(['$routeProvider',function($routeProvider){
 	$routeProvider
     .when('/', {
         templateUrl: 'principal.html'
     })
-    .when('/cadastroUsuarios', {
-        templateUrl: 'cadastro_usuarios.html',
-        controller: 'cadastroUsuariosCtrl'
+    .when('/cadastroClientes', {
+        templateUrl: 'cadastro_clientes.html',
+        controller: 'cadastroClientesCtrl'
     })
     .when('/carrinho', {
         templateUrl: 'carrinho.html',
@@ -19,8 +19,7 @@ app.config(['$routeProvider',function($routeProvider){
     .otherwise({redirectTo:'/'});
 }]);
 
-app.controller('cadastroUsuariosCtrl', function($scope,$http, $location){
-
+app.controller('cadastroClientesCtrl', function($scope,$http, $location){
     $scope.values = [];
 
     $http.get('/api/cliente').then(function(data){

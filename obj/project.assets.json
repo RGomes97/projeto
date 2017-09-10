@@ -9598,16 +9598,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruben\\Desktop\\dotnet_test\\dotnet_test.csproj",
+      "projectUniqueName": "C:\\Users\\ruben\\Desktop\\projeto\\dotnet_test.csproj",
       "projectName": "dotnet_test",
-      "projectPath": "C:\\Users\\ruben\\Desktop\\dotnet_test\\dotnet_test.csproj",
-      "outputPath": "C:\\Users\\ruben\\Desktop\\dotnet_test\\obj\\",
+      "projectPath": "C:\\Users\\ruben\\Desktop\\projeto\\dotnet_test.csproj",
+      "outputPath": "C:\\Users\\ruben\\Desktop\\projeto\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/dotnet_test.dll": "C:\\Users\\ruben\\Desktop\\dotnet_test\\bin\\placeholder\\netcoreapp1.1\\dotnet_test.dll"
+        "lib/netcoreapp1.1/dotnet_test.dll": "C:\\Users\\ruben\\Desktop\\projeto\\bin\\placeholder\\netcoreapp1.1\\dotnet_test.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

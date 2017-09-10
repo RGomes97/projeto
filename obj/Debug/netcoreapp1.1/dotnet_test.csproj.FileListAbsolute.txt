@@ -6,3 +6,11 @@ C:\Users\ruben\Desktop\dotnet_test\bin\Debug\netcoreapp1.1\dotnet_test.pdb
 C:\Users\ruben\Desktop\dotnet_test\obj\Debug\netcoreapp1.1\dotnet_test.AssemblyInfo.cs
 C:\Users\ruben\Desktop\dotnet_test\obj\Debug\netcoreapp1.1\dotnet_test.dll
 C:\Users\ruben\Desktop\dotnet_test\obj\Debug\netcoreapp1.1\dotnet_test.pdb
+C:\Users\ruben\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.deps.json
+C:\Users\ruben\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.runtimeconfig.json
+C:\Users\ruben\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.runtimeconfig.dev.json
+C:\Users\ruben\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.dll
+C:\Users\ruben\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.pdb
+C:\Users\ruben\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.AssemblyInfo.cs
+C:\Users\ruben\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.dll
+C:\Users\ruben\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.pdb

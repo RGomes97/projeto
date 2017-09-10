@@ -1,3 +1,8 @@
+*{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	border-radius: 0px !important;
+}
+
 .ng-leave-active{
 	-moz-transform: scale(0.1);
 	-webkit-transform: scale(0.1);
@@ -19,4 +24,11 @@
 .ng-leave{
 	transition: 1s;
 	opacity: 1;
+}
+
+.panel-default>.panel-heading{
+	/*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
 }
