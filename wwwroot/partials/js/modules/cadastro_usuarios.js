@@ -16,6 +16,10 @@ app.config(['$routeProvider',function($routeProvider){
         templateUrl: 'cadastro_produtos.html',
         controller: 'cadastroProdutosCtrl'
     })
+    .when('/clientes', {
+        templateUrl: 'clientes.html',
+        controller: 'clientesPedidoCtrl'
+    })
     .otherwise({redirectTo:'/'});
 }]);
 

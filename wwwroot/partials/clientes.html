@@ -1,0 +1,39 @@
+<div class="container">
+            
+            <div style="margin-top: 20px" class="input-group col-md-6 col-md-offset-3">
+                <input ng-model="filtro" type="text" class="form-control" placeholder="Buscar clientes">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Buscar</button>
+                </span>
+            </div>
+            <h3 class="text-center">Meus Clientes</h3>
+            <hr>
+            
+    <div class="col-md-8 col-md-offset-2">
+    <table class="table table-striped"> 
+            <thead> 
+                <tr>
+                    <th>Razao Social</th>
+                    <th>CNPJ</th>
+                    <th>CEP</th>
+                    <th>Endereco</th>
+                    <th>Complemento</th>
+                    <th>Bairro</th>
+                    <th>Estado</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="cliente in clientes | filter: filtro">
+                <td>{{cliente.razaoSocial}}</td>
+                <td>{{cliente.cnpj}}</td>
+                <td>{{cliente.cep}}</td>
+                <td>{{cliente.endereco}}</td>
+                <td>{{cliente.complemento}}</td>
+                <td>{{cliente.bairro}}</td>
+                <td>{{cliente.estado}}</td>
+                <td>{{cliente.cidade}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
