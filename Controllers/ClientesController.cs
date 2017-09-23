@@ -10,11 +10,11 @@ namespace dotnet_test.Controllers
     [Route("api/cliente")]
     public class ClientesController : Controller
     {
-        public static List<Cliente> vetor = new List<Cliente>();
+        public static List<ClientePessoaJuridica> vetor = new List<ClientePessoaJuridica>();
         
         // GET api/values
         [HttpGet]
-        public IEnumerable<Cliente> Get()
+        public IEnumerable<ClientePessoaJuridica> Get()
         {
             return vetor;
         }
@@ -33,9 +33,9 @@ namespace dotnet_test.Controllers
 
         // POST api/values
         [HttpPost]
-        public IEnumerable<Cliente> Post([FromBody]Cliente cliente)
+        public IEnumerable<ClientePessoaJuridica> Post([FromBody]Cliente cliente)
         {
-            vetor.Add(new Cliente{
+            vetor.Add(new ClientePessoaJuridica{
                 codigo = cliente.codigo,
                 razaoSocial = cliente.razaoSocial,
                 cnpj = cliente.cnpj,
