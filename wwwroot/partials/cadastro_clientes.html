@@ -68,6 +68,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div ng-if="form.successMessage" class="alert alert-success">
+                            {{form.successMessage}}
+                        </div>
                     </div>
                     <button ng-disabled="form.$invalid" ng-click="enviarDados()" class="btn btn-primary center-block" type="button">Enviar</button>
                 </form>

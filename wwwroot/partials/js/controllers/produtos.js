@@ -12,6 +12,8 @@ app.controller('cadastroProdutosCtrl', function($scope, $http, $location){
                 console.log(data.data); 
             })
 
+            $scope.form.successMessage = 'Usuário cadastrado com sucesso';
+
         });
         res.catch(function (data, status, headers, config) {
             alert("failure message: " + JSON.stringify({ data: data }));

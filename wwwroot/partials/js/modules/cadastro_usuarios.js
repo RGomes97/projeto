@@ -41,6 +41,8 @@ app.controller('cadastroClientesCtrl', function($scope,$http, $location){
                 $scope.values = data.data; 
             })
 
+            $scope.form.successMessage = 'Usuário cadastrado com sucesso';
+
         });
         res.catch(function (data, status, headers, config) {
             alert("failure message: " + JSON.stringify({ data: data }));

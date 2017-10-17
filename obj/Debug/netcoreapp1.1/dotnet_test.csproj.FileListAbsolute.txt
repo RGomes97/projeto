@@ -14,3 +14,12 @@ C:\Users\ruben\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.pdb
 C:\Users\ruben\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.AssemblyInfo.cs
 C:\Users\ruben\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.dll
 C:\Users\ruben\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.pdb
+C:\Users\ragostinho\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.deps.json
+C:\Users\ragostinho\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.runtimeconfig.json
+C:\Users\ragostinho\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.runtimeconfig.dev.json
+C:\Users\ragostinho\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.dll
+C:\Users\ragostinho\Desktop\projeto\bin\Debug\netcoreapp1.1\dotnet_test.pdb
+C:\Users\ragostinho\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.AssemblyInfo.cs
+C:\Users\ragostinho\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.dll
+C:\Users\ragostinho\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.pdb
+C:\Users\ragostinho\Desktop\projeto\obj\Debug\netcoreapp1.1\dotnet_test.csproj.CoreCompileInputs.cache

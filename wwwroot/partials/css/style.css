@@ -1,14 +1,5 @@
 *{
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-	border-radius: 0px !important;
-}
-
-.ng-leave-active{
-	-moz-transform: scale(0.1);
-	-webkit-transform: scale(0.1);
-	-ms-transform: scale(0.1);
-	-o-transform: scale(0.1);
-	transform: scale(0.1);
 }
 
 .ng-enter{
